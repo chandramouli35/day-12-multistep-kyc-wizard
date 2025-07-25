@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Day 12 – Multi-Step KYC Form Wizard with Context and Final Preview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is part of my 150-day developer preparation journey, focused on building production-ready React flows with global state, layered validation, and UI scalability. On Day 12, I engineered a multi-step KYC wizard that guides the user through multiple stages, stores data across components, and previews submissions before final confirmation.
 
-## Available Scripts
+## ✅ What I Practiced:
+- Step management using `useState` to navigate forward/back
+- Context API for form data persistence across components
+- Controlled inputs with real-time validation and error messages
+- Regex-based field validation (email, PAN, phone)
+- Final review screen with “Edit” and “Submit” options
+- Responsive layout using Tailwind CSS with consistent spacing
+- Optional localStorage integration to retain progress
 
-In the project directory, you can run:
+## 🧠 Key Concepts Covered:
+- Multi-step form architecture with isolated stages
+- Stateful navigation logic with validation gates
+- Context-driven form data propagation (FormContext)
+- Dynamic rendering: input visibility, final summary, transitions
+- UX feedback patterns for step indicators and save confirmation
 
-### `npm start`
+## 🛠 Features:
+- Step 1: Name, DOB, Email  
+- Step 2: Address (City, State, Pincode)  
+- Step 3: KYC fields (PAN, Aadhar, Image Upload)  
+- Step 4: Final Preview with editable summary  
+- Back/Next controls with form state memory
+- Validation alerts before progressing steps
+- Mobile-first layout and full responsiveness
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Tech Stack:
+- React.js (Hooks + Context API)
+- Tailwind CSS (Utility-first styling)
+- JavaScript form validation and state handling
+- Optional localStorage for session persistence
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔥 Why This Matters:
+Multi-step forms are used in onboarding flows, checkout pipelines, signup wizards, and compliance modules across real products. Today’s build reflects how user data flows across components with structure, validation, and clarity — the kind of engineering depth expected at top startups and product teams.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Day 12 complete. Every controlled step brings me closer to flow-driven UI mastery and product-grade architecture.
